@@ -1,3 +1,4 @@
+// first express api stuff (from firebase video)
 const express = require("express");
 const app = express();
 const PORT = 8080;

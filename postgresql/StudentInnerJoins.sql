@@ -12,4 +12,6 @@ FROM students
 INNER JOIN enrollments ON enrollments.student_id = students.id
 INNER JOIN courses ON courses.id = enrollments.course_id;
 
+-- From this practice, I have learned that we can do several types of INNER JOINs
+
 --INSERT INTO enrollments(student_id, course_id, grade) VALUES(1, 4, 'A');

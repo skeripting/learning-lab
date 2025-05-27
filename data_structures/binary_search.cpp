@@ -30,5 +30,6 @@ int main() {
     int target_idx = binary_search(arr, 3);
 
     cout << target_idx << endl;
+
     return 0;
 }
